@@ -8,13 +8,13 @@
   
 3_states.pkl  ________________________ pickle file with 3x10k states for multilabel classification  
   
-BinaryClassification.ipynb  ____________ core script for binary classification   
+BinaryClassification.ipynb  ______________ core script for binary classification   
   
 Generated_States_Integrator.ipynb  ______ integrates states into one file (data was generated in 30x1k files)  
   
-JUPYTER NOTEBOOK  ____________ starts jupyter in path, requires edit (right click -> edit)  
+JUPYTER NOTEBOOK  ______________ starts jupyter in path, requires edit (right click -> edit)  
   
-Labelmaker.ipynb  __________________ generates labels  
+Labelmaker.ipynb  ___________________ generates labels  
   
 MultilabelClassification.ipynb  ___________ core script for multilabel classification  
   
