@@ -12,7 +12,9 @@ used libraries: scikit-learn, numpy, pickle; jupyter notebooks
   
 BinaryClassification.ipynb  _____________ core script for binary classification   
   
-Generated_States_Integrator.ipynb  ______ integrates states into one file (data was generated in 30x1k files)  
+Generated_States_Integrator.ipynb  ______ integrates states into one file (data was generated in 30x1k files) 
+  
+Generator Ising.ipynb   _________________ basic 2 label generator; ordinary Ising model
   
 J1J2_generator.ipynb _________________ J1J2 Ising states generator using Monte Carlo single flip  
   
