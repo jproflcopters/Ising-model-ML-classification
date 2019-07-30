@@ -8,7 +8,7 @@
   
 3_states.pkl  ________________________ pickle file with 3x10k states for multilabel classification  
   
-BinaryClassification.ipynb  _______________ core script for binary classification   
+BinaryClassification.ipynb  ____________ core script for binary classification   
   
 Generated_States_Integrator.ipynb  ______ integrates states into one file (data was generated in 30x1k files)  
   
