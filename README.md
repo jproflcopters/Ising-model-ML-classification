@@ -14,6 +14,8 @@ BinaryClassification.ipynb  _____________ core script for binary classification
   
 Generated_States_Integrator.ipynb  ______ integrates states into one file (data was generated in 30x1k files)  
   
+J1J2_generator.ipynb ____________________ J1J2 Isinga states generator using Monte Carlo single flip  
+  
 JUPYTER NOTEBOOK  _______________ starts jupyter in path, requires edit (right click -> edit)  
   
 Labelmaker.ipynb  ____________________ generates labels  
