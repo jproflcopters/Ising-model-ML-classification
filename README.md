@@ -6,17 +6,17 @@ used libraries: scikit-learn, numpy, pickle
   
 2_states.pkl  ________________________ pickle file with 22.6k ordered + 17.4k disorded states for binary classification  
 
-3_labels.npy ________________________ numpy file with 3x10k labels for multilabel classification  
+3_labels.npy _______________________ numpy file with 3x10k labels for multilabel classification  
   
 3_states.pkl  ________________________ pickle file with 3x10k states for multilabel classification  
   
-BinaryClassification.ipynb  ______________ core script for binary classification   
+BinaryClassification.ipynb  _____________ core script for binary classification   
   
-Generated_States_Integrator.ipynb  ______ integrates states into one file (data was generated in 30x1k files)  
+Generated_States_Integrator.ipynb  _____ integrates states into one file (data was generated in 30x1k files)  
   
-JUPYTER NOTEBOOK  ______________ starts jupyter in path, requires edit (right click -> edit)  
+JUPYTER NOTEBOOK  _______________ starts jupyter in path, requires edit (right click -> edit)  
   
-Labelmaker.ipynb  ___________________ generates labels  
+Labelmaker.ipynb  ____________________ generates labels  
   
 MultilabelClassification.ipynb  ___________ core script for multilabel classification  
   
