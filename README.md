@@ -1,9 +1,14 @@
 # Ising_private
 
+2_labels.pkl ________________________ pickle file with 22.6k ordered + 17.4k disorded labels for binary classification  
+  
+2_states.pkl  _________________________ pickle file with 22.6k ordered + 17.4k disorded states for binary classification  
 
 3_labels.npy ________________________ numpy file with 3x10k labels for multilabel classification  
   
 3_states.pkl  _________________________ pickle file with 3x10k states for multilabel classification  
+  
+BinaryClassification.ipynb  ___________ core script for binary classification   
   
 Generated_States_Integrator.ipynb  ______ integrates states into one file (data was generated in 30x1k files)  
   
@@ -11,6 +16,6 @@ JUPYTER NOTEBOOK  _______________ starts jupyter in path, requires edit (right c
   
 Labelmaker.ipynb  ____________________ generates labels  
   
-MultilabelClassification.ipynb  ___________ core script for multilabel calssification  
+MultilabelClassification.ipynb  ___________ core script for multilabel classification  
   
-QuickVisual.py  ______________________ sanity check for generated states  
+QuickVisual.py  _____________________ sanity check for generated states  
