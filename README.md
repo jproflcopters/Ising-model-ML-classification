@@ -6,9 +6,9 @@
 
 3_labels.npy ________________________ numpy file with 3x10k labels for multilabel classification  
   
-3_states.pkl  _________________________ pickle file with 3x10k states for multilabel classification  
+3_states.pkl  ________________________ pickle file with 3x10k states for multilabel classification  
   
-BinaryClassification.ipynb  ___________ core script for binary classification   
+BinaryClassification.ipynb  _______________ core script for binary classification   
   
 Generated_States_Integrator.ipynb  ______ integrates states into one file (data was generated in 30x1k files)  
   
@@ -18,4 +18,4 @@ Labelmaker.ipynb  ____________________ generates labels
   
 MultilabelClassification.ipynb  ___________ core script for multilabel classification  
   
-QuickVisual.py  _____________________ sanity check for generated states  
+QuickVisual.py  ______________________ sanity check for generated states  
