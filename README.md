@@ -1,5 +1,7 @@
 # Ising_private
 
+used libraries: scikit-learn, numpy, pickle
+
 2_labels.pkl ________________________ pickle file with 22.6k ordered + 17.4k disorded labels for binary classification  
   
 2_states.pkl  ________________________ pickle file with 22.6k ordered + 17.4k disorded states for binary classification  
