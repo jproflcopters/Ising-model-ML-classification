@@ -2,19 +2,19 @@
 
 2_labels.pkl ________________________ pickle file with 22.6k ordered + 17.4k disorded labels for binary classification  
   
-2_states.pkl  _________________________ pickle file with 22.6k ordered + 17.4k disorded states for binary classification  
+2_states.pkl  ________________________ pickle file with 22.6k ordered + 17.4k disorded states for binary classification  
 
 3_labels.npy ________________________ numpy file with 3x10k labels for multilabel classification  
   
 3_states.pkl  ________________________ pickle file with 3x10k states for multilabel classification  
   
-BinaryClassification.ipynb  _____________ core script for binary classification   
+BinaryClassification.ipynb  ____________ core script for binary classification   
   
 Generated_States_Integrator.ipynb  ______ integrates states into one file (data was generated in 30x1k files)  
   
-JUPYTER NOTEBOOK  _______________ starts jupyter in path, requires edit (right click -> edit)  
+JUPYTER NOTEBOOK  ____________ starts jupyter in path, requires edit (right click -> edit)  
   
-Labelmaker.ipynb  ____________________ generates labels  
+Labelmaker.ipynb  __________________ generates labels  
   
 MultilabelClassification.ipynb  ___________ core script for multilabel classification  
   
