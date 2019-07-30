@@ -12,7 +12,7 @@ used libraries: scikit-learn, numpy, pickle
   
 BinaryClassification.ipynb  _____________ core script for binary classification   
   
-Generated_States_Integrator.ipynb  _____ integrates states into one file (data was generated in 30x1k files)  
+Generated_States_Integrator.ipynb  ______ integrates states into one file (data was generated in 30x1k files)  
   
 JUPYTER NOTEBOOK  _______________ starts jupyter in path, requires edit (right click -> edit)  
   
