@@ -1,7 +1,5 @@
 # Ising_private
 
-Repository with Ising related files
-
 
 3_labels.npy ________________________ numpy file with 3x10k labels for multilabel classification  
   
