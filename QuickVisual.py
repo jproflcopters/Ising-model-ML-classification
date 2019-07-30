@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 from matplotlib import pyplot as plt
 
-print("This program displays first 10 images from pickled data.\nRequires the file to be in the same folder as this program.\n")
+print("This program displays images from pickled data.\nRequires the file to be in the same folder as this program.\n")
 
 name = input("Enter file name (don't forget .pkl): ")
 start_index = int(input("Starting range: "))
@@ -15,8 +15,6 @@ def x():
 x = x()
 
 for i in range(start_index, end_index):
-    #y = i*1000-1
-    #print(y)
     X = x[i].reshape(50,50)
     plt.imshow(X)
     plt.show()
