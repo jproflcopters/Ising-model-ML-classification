@@ -2,6 +2,11 @@
 
 used libraries: scikit-learn, numpy, pickle; jupyter notebooks
 
+The pipeline for ordinary Ising model looks like this:
+Generator Ising -> Generated_States_Integrator -> (returns 2_states.pkl)
+Labelmaker -> (returns 2_labels.pkl)
+BinaryClassification -> (uses states and labels) -> Classification -> Results
+
 2_labels.pkl ________________________ pickle file with 22.6k ordered + 17.4k disorded labels for binary classification  
   
 2_states.pkl  ________________________ pickle file with 22.6k ordered + 17.4k disorded states for binary classification  
