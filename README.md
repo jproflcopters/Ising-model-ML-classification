@@ -6,7 +6,7 @@ used libraries: scikit-learn, numpy, pickle
   
 2_states.pkl  ________________________ pickle file with 22.6k ordered + 17.4k disorded states for binary classification  
 
-3_labels.npy _______________________ numpy file with 3x10k labels for multilabel classification  
+3_labels.npy ________________________ numpy file with 3x10k labels for multilabel classification  
   
 3_states.pkl  ________________________ pickle file with 3x10k states for multilabel classification  
   
@@ -14,7 +14,7 @@ BinaryClassification.ipynb  _____________ core script for binary classification
   
 Generated_States_Integrator.ipynb  ______ integrates states into one file (data was generated in 30x1k files)  
   
-J1J2_generator.ipynb ____________________ J1J2 Isinga states generator using Monte Carlo single flip  
+J1J2_generator.ipynb _________________ J1J2 Ising states generator using Monte Carlo single flip  
   
 JUPYTER NOTEBOOK  _______________ starts jupyter in path, requires edit (right click -> edit)  
   
