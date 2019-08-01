@@ -1,4 +1,4 @@
-# Ising_private
+# Ising model ML classification
 
 used libraries: scikit-learn, numpy, pickle; jupyter notebooks
 
