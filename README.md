@@ -9,9 +9,9 @@ BinaryClassification -> (uses states and labels) -> Classification -> Results
   
   
 
-2_labels.pkl ________________________ pickle file with 22.6k ordered + 17.4k disorded labels for binary classification  
+UNIQUE_LABELS_40k.pkl ________________________ pickle file with 22.6k ordered + 17.4k disorded labels for binary classification  
   
-2_states.pkl  ________________________ pickle file with 22.6k ordered + 17.4k disorded states for binary classification  
+UNIQUE_STATES_40k.pkl  ________________________ pickle file with 22.6k ordered + 17.4k disorded states for binary classification  
 
 3_labels.npy ________________________ numpy file with 3x10k labels for multilabel classification  
   
