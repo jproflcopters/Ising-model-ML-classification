@@ -25,10 +25,10 @@ Generator Ising.ipynb   _________________ basic 2 label generator; ordinary Isin
   
 J1J2_generator.ipynb _________________ J1J2 Ising states generator using Monte Carlo single flip  
   
-JUPYTER NOTEBOOK  _______________ starts jupyter in path, requires edit (right click -> edit)  
+JUPYTER NOTEBOOK  _______________ starts jupyter
   
 Labelmaker.ipynb  ____________________ generates labels  
   
-MultilabelClassification.ipynb  ___________ core script for multilabel classification  
+MultiClassification.ipynb  ___________ core script for multiclass classification  
   
 QuickVisual.py  ______________________ sanity check for generated states  
