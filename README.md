@@ -1,7 +1,8 @@
-# Ising model ML classification  
+# Using ML for phase classification in Ising Model 
 
 Libraries used: scikit-learn, numpy, pickle; jupyter notebooks  
-
+  
+  
 The pipeline for ordinary Ising model looks like this: 
   
 Generator Ising -> Generated_States_Integrator -> returns 2_states.pkl, used np.unique to detect and delete duplicates 
