@@ -1,34 +1,26 @@
 # Ising model ML classification
 
-used libraries: scikit-learn, numpy, pickle; jupyter notebooks
+Libraries used: scikit-learn, numpy, pickle; jupyter notebooks
 
-The pipeline for ordinary Ising model looks like this:  
-Generator Ising -> Generated_States_Integrator -> (returns 2_states.pkl) -> use np.unique to detect duplicates 
-Labelmaker -> (returns 2_labels.pkl)  
-BinaryClassification -> (uses states and labels) -> Classification -> Results  
-  
-  
 
-UNIQUE_LABELS_40k.pkl __________________ pickle file with 22.6k ordered + 17.4k disorded labels for binary classification  
-  
-UNIQUE_STATES_40k.pkl  __________________ pickle file with 22.6k ordered + 17.4k disorded states for binary classification  
+The pipeline for ordinary Ising model looks like this:
 
-3_labels.npy ________________________ numpy file with 3x10k labels for multilabel classification  
-  
-3_states.pkl  ________________________ pickle file with 3x10k states for multilabel classification  
-  
-BinaryClassification.ipynb  _____________ core script for binary classification   
-  
-Generated_States_Integrator.ipynb  ______ integrates states into one file (data was generated in 30x1k files) 
-  
-Generator Ising.ipynb   _________________ basic 2 label generator; ordinary Ising model
-  
-J1J2_generator.ipynb _________________ J1J2 Ising states generator using Monte Carlo single flip  
-  
-JUPYTER NOTEBOOK  _______________ starts jupyter
-  
-Labelmaker.ipynb  ____________________ generates labels  
-  
-MultiClassification.ipynb  ___________ core script for multiclass classification  
-  
-QuickVisual.py  ______________________ sanity check for generated states  
+Generator Ising -> Generated_States_Integrator -> (returns 2_states.pkl) -> use np.unique to detect duplicates Labelmaker -> (returns 2_labels.pkl)
+
+BinaryClassification -> (uses states and labels) -> Classification -> Results
+
+
+| File name  | Description |
+| ------------- | ------------- |
+| UNIQUE_LABELS_40k.pkl   | pickle file with 22.6k ordered + 17.4k disorded labels for binary classification  |
+| UNIQUE_STATES_40k.pkl   | pickle file with 22.6k ordered + 17.4k disorded states for binary classification  |
+| 3_labels.npy    | numpy file with 3x10k labels for multilabel classification  |
+| 3_states.pkl    | pickle file with 3x10k states for multilabel classification  |
+| BinaryClassification.ipynb		|				core script for binary classification |
+|Generated_States_Integrator.ipynb|	integrates states into one file (data was generated in 30x1k files)|
+|Generator Ising.ipynb		|		basic 2 label generator; ordinary Ising model |
+| J1J2_generator.ipynb		|		J1J2 Ising states generator using Monte Carlo single flip |
+| JUPYTER NOTEBOOK			|		starts jupyter |
+| Labelmaker.ipynb		|			generates labels|
+| MultiClassification.ipynb		|	core script for multiclass classification |
+| QuickVisual.py		|				sanity check for generated states |
